@@ -1805,3 +1805,61 @@ body {
     padding: 10px 10px 84px;
   }
 }
+/* FIX: PREVENT UNWANTED MOBILE PAGE OVERFLOW */
+
+@media (max-width: 768px) {
+  html,
+  body,
+  #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .navbar-brand-wrap {
+    min-width: 0;
+    max-width: calc(100% - 50px);
+    gap: 6px;
+  }
+
+  .logo {
+    font-size: clamp(15px, 4vw, 20px);
+  }
+
+  .brand-est-badge {
+    white-space: nowrap;
+  }
+
+  .about-content,
+  .service-container,
+  .contact,
+  .footer-main {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .contact-side,
+  .contact-content,
+  .footer-brand {
+    min-width: 0;
+  }
+
+  .contact-location-note {
+    min-width: 0;
+    flex-wrap: wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .reveal-left,
+  .reveal-right {
+    transform: translateY(25px);
+  }
+  body {
+  padding-top: 55px;
+}
+}
