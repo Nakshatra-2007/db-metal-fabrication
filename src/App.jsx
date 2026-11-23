@@ -347,10 +347,10 @@ function App() {
           <p className="tagline">METAL FABRICATOR</p>
 
           <h1>
-            DB Metal
-            <br />
-            <span>Fabrication</span>
-          </h1>
+  Metal Fabrication
+  <br />
+  <span>in Coimbatore</span>
+</h1>
 
         <p className="description">
   Structural Works • Gates • Grills • Staircases
@@ -402,9 +402,9 @@ function App() {
             <p className="section-label">ABOUT OUR BUSINESS</p>
 
             <h2>
-              Your Trusted Partner in
-              <span> Metal Fabrication</span>
-            </h2>
+  Experienced Metal Fabrication
+  <span> Services in Coimbatore</span>
+</h2>
 
             <p>
               DB Metal Fabrication, based in Coimbatore, Tamil Nadu, 
@@ -446,9 +446,11 @@ function App() {
           <p className="section-label">WHAT WE SPECIALIZE IN</p>
           <h2>Our <span>Services</span></h2>
           <p>
-            Quality metal fabrication and structural solutions engineered to meet
-            rigorous safety and architectural requirements.
-          </p>
+  From industrial shed fabrication and heavy structural steel works
+  to custom gates, grills, staircases and CNC machine erection,
+  we deliver reliable metal fabrication solutions in Coimbatore
+  and surrounding areas.
+</p>
         </div>
 
         <div className="service-container">
@@ -461,9 +463,10 @@ function App() {
             </div>
             <h3>Heavy Structural Works</h3>
             <p>
-              Strong and reliable steel structures, trusses, and industrial shed
-              frameworks for warehouses and commercial applications.
-            </p>
+  Industrial shed and godown fabrication, warehouse structures,
+  steel trusses, and heavy structural frameworks designed for
+  strength, durability, and reliable long-term use.
+</p>
             <a
               href="#contact"
               className="service-enquire-link"
@@ -561,11 +564,10 @@ function App() {
             </div>
             <h3>On-site Works</h3>
             <p>
-              On-site fabrication, welding, repairs, 
-              modifications, and structural assembly undertaken 
-              across Coimbatore and other parts of Tamil Nadu, 
-              based on project requirements.
-            </p>
+  Professional on-site metal fabrication, welding, structural
+  assembly, repairs and modifications carried out at customer
+  locations across Coimbatore and surrounding areas.
+</p>
             <a
               href="#contact"
               className="service-enquire-link"
@@ -588,10 +590,10 @@ function App() {
             </div>
             <h3>CNC Machine Erection</h3>
             <p>
-              Specialised in the erection and installation
-              of CNC cutting machines, with a focus on precision,
-              proper alignment and quality workmanship.
-            </p>
+  On-site erection, positioning, alignment and installation
+  of CNC cutting machines, ensuring accurate setup and
+  dependable operation through experienced workmanship.
+</p>
             <a
               href="#contact"
               className="service-enquire-link"
